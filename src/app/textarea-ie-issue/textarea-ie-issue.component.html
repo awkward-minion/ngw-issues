@@ -1,0 +1,16 @@
+<h3>
+  textarea-ie-issue
+</h3>
+<ul>
+  <li>
+    I'm getting "Invalid argument" when using <i>ngw-genric-forms</i> ,TextArea with placeholder, on IE10+.
+  </li>
+  <li>
+    I have tested in IE 10 (It works for all other browsers)
+  </li>
+  <li>
+      When invalid argument exception appears at IE console , no other angular 2+ components are working and the app is broken.
+  </li>
+</ul>
+
+<ngw-generic-form #detailsForm [config]="formConfiguration"></ngw-generic-form>
